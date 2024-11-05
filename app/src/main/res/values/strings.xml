@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DicodingEvent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_home">Home</string>
+    <string name="title_Upcoming">Upcoming</string>
+    <string name="title_Finished">Finished</string>
+    <string name="deskripsi">Description\n</string>
+    <string name="owner">owner\n</string>
+    <string name="tgl">begin\n</string>
+    <string name="peserta">peserta\n</string>
+    <string name="des">description</string>
+    <string name="register">resgistrasi\n</string>
+    <string name="event_image">event img\n</string>
+    <string name="event_name">event name\n</string>
+    <string name="error_loading_data">error_while_loading_data</string>
+    <string name="upcoming_event">Upcoming event</string>
+    <string name="finished_events">finished Events</string>
+    <string name="image_event">image_event</string>
+    <string name="tidak_ada_acara_aktif_yang_tersedia">Tidak ada acara aktif yang tersedia.</string>
+    <string name="tidak_ada_acara_selesai_yang_tersedia">Tidak ada acara selesai yang tersedia.</string>
+    <string name="searchbar_hint">search\n</string>
+    <string name="no_events_found_for_query">Tidak ada acara yang ditemukan untuk "%1$s". Coba kata kunci lain.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="favorite">favorite\n</string>
+    <string name="setting">setting\n</string>
+    <string name="dark_mode">dark mode\n</string>
+    <string name="daily_reminder">daily reminder</string>
+    <string name="add_favorite">tambah favorite</string>
+    <string name="save_bookmark">save favorite</string>
+    <string name="no_favorites_available">No favorites available</string>
+</resources>

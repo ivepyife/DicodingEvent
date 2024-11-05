@@ -1,0 +1,6 @@
+<resources>
+    <style name="Base.Theme.DicodingEvent" parent="Theme.Material3.DayNight">
+    </style>
+
+    <style name="Theme.DicodingEvent" parent="Base.Theme.DicodingEvent" />
+</resources>

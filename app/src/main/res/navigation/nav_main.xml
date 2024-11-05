@@ -1,0 +1,61 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.dicodingevent.ui.home.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailEventFragment"
+            app:destination="@id/detailEventFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_upcoming"
+        android:name="com.dicoding.dicodingevent.ui.upcoming.UpcomingEventFragment"
+        android:label="upcoming"
+        tools:layout="@layout/fragment_item_list">
+        <action
+            android:id="@+id/action_navigation_upcoming_to_detailEventFragment"
+            app:destination="@id/detailEventFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_finished"
+        android:name="com.dicoding.dicodingevent.ui.finished.FinishedEventFragment"
+        android:label="finished"
+        tools:layout="@layout/fragment_item_list">
+        <action
+            android:id="@+id/action_navigation_finished_to_detailEventFragment"
+            app:destination="@id/detailEventFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailEventFragment"
+        android:name="com.dicoding.dicodingevent.ui.detail.DetailEventFragment"
+        android:label="fragment_detail_event"
+        tools:layout="@layout/fragment_detail_event">
+        <argument
+            android:name="eventId"
+            app:argType="integer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.dicoding.dicodingevent.ui.favorite.FavoriteEventFragment"
+        android:label="fragment_favorite_event"
+        tools:layout="@layout/fragment_favorite_event" >
+        <action
+            android:id="@+id/action_navigation_favorite_to_detailEventFragment"
+            app:destination="@id/detailEventFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.dicoding.dicodingevent.ui.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_upcoming"
+        android:icon="@drawable/baseline_edit_calendar_24"
+        android:title="@string/title_Upcoming" />
+
+    <item
+        android:id="@+id/navigation_finished"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_Finished" />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="@string/favorite" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/setting" />
+
+
+</menu>
